@@ -1,4 +1,4 @@
-/* how to print m shape pyramid in c*/
+// how to print m shape pyramid in c
 #include<stdio.h>
 int main()
 {
