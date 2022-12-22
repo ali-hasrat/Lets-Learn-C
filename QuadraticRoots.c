@@ -24,9 +24,10 @@ void main()
 	   printf("Root2= %f\n",x2);
 	}
 	else
+	{
 	   printf("Root are imaginary\n");
       x1=x2 = -b/(2*a);
         imag= sqrt(-d)/(2*a);
         printf("Root1=%.2f+i%.2f \nRoot2=%.2f-i%.2f", x1,imag,x2,imag);
     }
-
+}
