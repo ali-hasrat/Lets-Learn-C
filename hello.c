@@ -3,7 +3,7 @@
 void main()
 {
 
-    printf("Hello Sweety");
+    printf("Hello Guys");
 }  
 
 //Method-2
@@ -11,7 +11,7 @@ void main()
 #include<stdio.h>
 void main()
 {
-    if(printf("Hello Sweety"))
+    if(printf("Hello Guys"))
     {
 
     }
@@ -22,7 +22,7 @@ void main()
 #include<stdio.h>
 void main()
 {
-    switch(printf("Hello Sweety"))
+    switch(printf("Hello Guys"))
     {
 
     }  
