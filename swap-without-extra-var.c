@@ -12,7 +12,7 @@
         return 0;
     }
 
-    //method-II
+    //method-II Using XOR Operator
     #include <stdio.h>
     int main()
     {
