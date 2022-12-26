@@ -19,9 +19,9 @@ void main()
             printf(" %d ",arr[i][j]);
         }
     }
-    printf("\n And the Transpose of matrix is:");
-    for(i=0;i<3;i++)             
-    {                              
+    printf("\n And the Transpose of matrix is:");     //Means changing Row into Column
+    for(i=0;i<3;i++)                                  //So we will just reverse the size i.e, i size into j and vice versa
+    {                                          
         printf("\n"); 
         for(j=0;j<2;j++)        
         {
