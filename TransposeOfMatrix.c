@@ -1,8 +1,10 @@
 #include<stdio.h>
 void main()
 {
-    int arr[2][3],i,j,n;    
-    //we can change the order of matrix by changing size Or we can take size from user after using function scanf("");
+    int i,j,m,n;     //int arr[15][15] --- Here instead of 15, we can write any order of size.
+    printf("no. of rows and columns:");
+    scanf("%d %d",&m,&n);
+    int arr[m][n];
     printf("The elements of matrix are:");
     for(i=0;i<2;i++)
     {
