@@ -18,7 +18,7 @@ int main()
 {
     int num;
     printf("Enter the Integer :");
-    scanf("%d",num);
+    scanf("%d",&num);
     int2roman(num);
     return 0;
 }
