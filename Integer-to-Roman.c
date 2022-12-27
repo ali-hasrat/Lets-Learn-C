@@ -4,7 +4,7 @@
     int integer[] = {1000,900,500,400,100,90,50,40,10,9,5,4,1};   //base values
     char *roman[] = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};  //roman symbols
     int i = 0;
-    while(num)                               //repeat process until num is not 0
+    while(num>0)                             //repeat process until num is not 0
     {                                        
         while(num/integer[i])                //first base value that divides num is largest base value
         {                                    
@@ -16,7 +16,9 @@
 }
 int main()
 {
-    int num=3459;                            //enter any integer value to convert it into roman
+    int num;
+    printf("Enter the Integer :");
+    scanf("%d",num);
     int2roman(num);
     return 0;
 }
