@@ -1,4 +1,4 @@
-
+//program to print pascal triangle pattern
 #include <stdio.h>
 void main()
 {
