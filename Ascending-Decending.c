@@ -11,9 +11,9 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<n;++i) 
+    for(i=0;i<n;i++) 
         {
-            for(j=i+1;j<n;++j)
+            for(j=i+1;j<n;j++)
             {
                 if (arr[i]>arr[j]) 
                 {
@@ -24,11 +24,11 @@ int main()
              }
         }
         printf("Elements in ascending order is given by: ");
-        for (i=0;i<n;++i)
+        for (i=0;i<n;i++)
         printf("%d ",arr[i]);
-        for(i=0;i<n;++i) 
+        for(i=0;i<n;i++) 
         {
-            for(j=i+1;j<n;++j)
+            for(j=i+1;j<n;j++)
             {
                 if (arr[i]<arr[j]) 
                 {
@@ -39,7 +39,7 @@ int main()
              }
         }
         printf("\nElements in decending order is given by: ");
-        for (i=0;i<n;++i)
+        for (i=0;i<n;i++)
         printf("%d ",arr[i]);
         return 0;
 }
