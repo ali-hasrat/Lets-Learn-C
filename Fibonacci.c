@@ -1,4 +1,4 @@
-
+//program to print Fibonaci sequence
 #include<stdio.h>
 int main()
 {
