@@ -1,4 +1,5 @@
-   //method-I
+   //program to swap two no. without using extra variable
+//method-I
     #include<stdio.h>
     int main()
     {
