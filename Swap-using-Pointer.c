@@ -1,3 +1,4 @@
+//program to swap using pointer
 #include<stdio.h>  
 int main()
 {  
