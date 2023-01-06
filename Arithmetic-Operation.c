@@ -1,18 +1,4 @@
-/*#include<stdio.h>
-#include<math.h>
-void main()
-{
-    int n,c;
-    scanf("%d",&n);
-    c=pow(n,3);
-    printf("cube:%d",c); 
-}
-
-//& the same can also be solved through function
-
-
-*/
-//method-2
+//program to perform arithmetic operation
 #include<stdio.h>
 int calc(int a,int b)
 {
