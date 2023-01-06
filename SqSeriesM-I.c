@@ -1,3 +1,4 @@
+//program to print alternative sign of square series
 #include<stdio.h>
 int main()
 {
