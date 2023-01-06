@@ -1,3 +1,4 @@
+//program to print H-pattern
 #include<stdio.h>
 void  main( )
 { 
