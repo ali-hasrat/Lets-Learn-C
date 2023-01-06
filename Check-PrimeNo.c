@@ -1,3 +1,4 @@
+//program to check whether no. is prime or not
 #include<stdio.h>
 void main()
 {
