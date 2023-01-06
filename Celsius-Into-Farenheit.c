@@ -1,4 +1,4 @@
-//Celsius into Farenheit
+//program to convert Celsius into Farenheit
 #include<stdio.h>
 int main()
 {
