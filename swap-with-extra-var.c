@@ -1,3 +1,4 @@
+//program to swap two no. using extra variable
 #include<stdio.h>
 int swap(int a,int b)
 {
