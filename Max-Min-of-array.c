@@ -1,3 +1,4 @@
+//program to find max. and min. of array
 #include<stdio.h>
 void main()
 {
