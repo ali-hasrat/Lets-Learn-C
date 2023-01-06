@@ -1,3 +1,4 @@
+//program to find cube of any number
 #include<stdio.h>
 #include<math.h>
 void main()
