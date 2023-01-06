@@ -1,3 +1,4 @@
+//program to pass an array to function
 #include <stdio.h>
 void display(int age1, int age2) {
   printf("%d\n", age1);
