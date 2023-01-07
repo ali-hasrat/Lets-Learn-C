@@ -16,7 +16,7 @@ int main()
 int main()
 {
     int i,n,sum=0;
-    printf("Enter the size of the array:");
+    printf("Enter the total no. of elements to be added:");
     scanf("%d",&n);
     int arr[n];
     int *p[n];
