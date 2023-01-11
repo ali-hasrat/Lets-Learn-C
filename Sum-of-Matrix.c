@@ -3,9 +3,7 @@
 int main()
 {
     int i,j,n;
-    printf("Enter the size of Matrix A: ");
-    scanf("%d",&n);
-    printf("Enter the size of Matrix B:" );
+    printf("Enter the Order of Matrix A & B: ");
     scanf("%d",&n);
     //size of both matrix is same because only then we can add two matrix
     int arr1[n][n],arr2[n][n];
