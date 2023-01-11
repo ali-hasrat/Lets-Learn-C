@@ -14,7 +14,7 @@ int main()
         }
           i++;
 
-        if(str[i]=='\n' || i==20)   // Here, i=10 means 1st line changed after 20 character
+        if(str[i]=='\n' || i==20)   // Here, i=20 means 1st line changed after 20 character
         {
             b++;
         }
